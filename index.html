@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First EcmaScript6 App</title>
+</head>
+<body>
+
+    <div>
+        <h2>Calculator</h2>
+    <form action="#" onsubmit="add()">
+       Number#1:<input class="inp" id="number1" type="number" placeholder="Enter your first number here" required> </br>
+       Number#2:<input class="inp" id="number2" type="number" placeholder="Enter your second number here" required></br>
+
+        <button class="btn" >Add</button>
+        <button class="btn" onclick="sub()">Subtract</button>
+        <button class="btn" onclick="mul()">Multiply</button>
+        <button class="btn" onclick="div()">Divide</button></br>
+        <p class="btn1" id="res" ></p>
+    </form>
+</div>
+</body>
+<style>
+    div{
+        border: 2px solid black;
+        border-radius: 10px;
+        text-align: center;
+        height: 45vh;
+        width: 48%;
+        margin-top: 20px;
+    }
+    .btn{
+        margin: 10px;
+        padding: 10px;
+        color: black;
+        border-color: wheat;
+        border-radius: 10px ;
+    }
+
+    .inp{
+        margin: 10px;
+        margin-top: 12px;
+        padding: 10px;
+    }
+    .btn1{
+        border: 2px solid saddlebrown;
+        border-radius: 5px;
+        width: 10%;
+        height: 4vh;
+        margin-left: auto;
+        margin-right: auto;
+    }
+</style>
+<script src="app.js"></script>
+</html>
